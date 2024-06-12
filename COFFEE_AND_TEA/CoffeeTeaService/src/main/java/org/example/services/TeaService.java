@@ -71,6 +71,21 @@ public class TeaService implements DrinkInterface {
                 .sum();
         price += additionsPrice;
 
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Do you have a discount code? (Yes/No):");
+        String input = scanner.nextLine();
+        if (input.equalsIgnoreCase("Yes")) {
+            System.out.println("Enter the discount code:");
+            String code = scanner.nextLine();
+            try {
+                discount = discountService.getDiscount(code);
+                System.out.println("Discount code successfully added!");
+            } catch (DiscountCodeException | DiscountCodeExpiredException e) {
+                System.out.println(e.getMessage());
+            }
+        }
+
+        price *= (1 - discount);
         System.out.println("Total price for tea: " + String.format("%.2f", price));
 
         orderService.saveOrder(additions, price, cupSize, DrinkType.TEA);
