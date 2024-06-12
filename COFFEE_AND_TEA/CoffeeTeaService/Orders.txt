@@ -1,0 +1,16 @@
+Order: Coffee | Size: M | Additions: [SUGAR] | Final Price: 8,20
+Order: Coffee | Size: M | Additions: [SUGAR, MILK] | Final Price: 8,60
+Order: Coffee | Size: M | Additions: [MILK, SUGAR] | Final Price: 8,60
+Order: Coffee | Size: M | Additions: [SUGAR] | Final Price: 8,20
+Order: Coffee | Size: M | Additions: [SUGAR, SUGAR] | Final Price: 8,40
+Order: Coffee | Size: M | Additions: [SUGAR, SUGAR] | Final Price: 8,40
+Order: Coffee | Size: M | Additions: [SUGAR, SUGAR] | Final Price: 8,40
+Order: Coffee | Size: M | Additions: [SUGAR, SUGAR] | Final Price: 8,40
+Order: Coffee | Size: M | Additions: [SUGAR, SUGAR] | Final Price: 8,40
+Order: Coffee | Size: M | Additions: [SUGAR, SUGAR] | Final Price: 8,40
+Order: Coffee | Size: M | Additions: [SUGAR, MILK] | Final Price: 8,60
+Order: Tea | Size: M | Additions: [] | Final Price: 7,00
+Order: Tea | Size: M | Additions: [MINT, SUGAR] | Final Price: 7,50
+Order: Tea | Size: M | Additions: [] | Final Price: 7,00
+Order: Tea | Size: M | Additions: [SUGAR, MINT] | Final Price: 7,50
+Order: Coffee | Size: M | Additions: [SUGAR, MILK] | Final Price: 8,60
